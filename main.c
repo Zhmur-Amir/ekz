@@ -37,7 +37,7 @@ int main(/*int argc, char* argv[]*/)
     }
    while(fscanf(input, "%c",&tmp)==1)
    {
-    if (tmp==' ' || tmp=='\n' || tmp=9)
+    if (tmp==' ' || tmp=='\n' || tmp==9)
        {
            word_count+=1;
        }
@@ -58,7 +58,7 @@ int main(/*int argc, char* argv[]*/)
    for(int i=0; i<symbols;i++)
    {
        fscanf(input,"%c", &tmp);
-       if (tmp==' '  || tmp=='\n' || i==symbols-1 || tmp=9)
+       if (tmp==' '  || tmp=='\n' || i==symbols-1 || tmp==9)
        {
            if(i==symbols-1)
            {
