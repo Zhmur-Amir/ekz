@@ -102,7 +102,7 @@ int main(/*int argc, char* argv[]*/)
        for (int i=0; i<words_processed;i++)
        {
            int j=0;
-           while(words[i][j]!='/0')
+           while(words[i][j]!='\0')
            {
                fprintf(output, "%c", words[i][j]);
                j+=1;
