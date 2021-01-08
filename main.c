@@ -5,7 +5,7 @@
 int lexicographal_sort(const void* val1, const void* val2)
 {
     const char* word_1=*((const char**)val1);
-    const char* word_2=*((const char**)val1);
+    const char* word_2=*((const char**)val2);
     return strcmp(word_1, word_2);
 
 }
